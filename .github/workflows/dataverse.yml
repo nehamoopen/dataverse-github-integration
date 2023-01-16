@@ -10,6 +10,6 @@ jobs:
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://demo.dataverse.org
-          DATAVERSE_DATASET_DOI: doi:10.70122/FK2/LVUA
-          GITHUB_DIR: data
+          DATAVERSE_DATASET_DOI: doi:10.80227/test-FRLNPK 
+          GITHUB_DIR: upload_to_dataverse
           DELETE: False
